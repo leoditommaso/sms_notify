@@ -1,0 +1,14 @@
+production:
+  twilio:
+    account_sid: 'YOUR_ACCOUNT_SID'
+    auth_token: 'YOUR_AUTH_TOKEN'
+    from: 'YOUR_FROM_NUMBER'
+    body: 'MESSAGE_BODY'
+  destination_numbers_file: 'data/numbers'
+testing:
+  twilio:
+    account_sid: 'YOUR_TESTING_ACCOUNT_SID'
+    auth_token: 'YOUR_TESTING_AUTH_TOKEN'
+    from: "+15005550006"
+    body: "Test message."
+  destination_numbers_file: 'data/testing'
