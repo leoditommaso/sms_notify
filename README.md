@@ -64,7 +64,7 @@ data/testing for testing environment and data/numbers for production.
 **Note:** body message can be up to 160 characters long if using standard ASCII.
 If your message includes any non-ASCII character, Twilio will automatically
 change encoding to Unicode and reduce the number of characters per message to
-80. Have in mind that you will be charged by each message you send.
+80. Have in mind that you will be charged for each message you send.
 
 ### Destination numbers file
 
